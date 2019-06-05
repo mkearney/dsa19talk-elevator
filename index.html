@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Data Science &amp; Analytics</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="University of Missouri dsa.missouri.edu" />
+    <link href="index_files/remark-css/robot.css" rel="stylesheet" />
+    <link href="index_files/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="index_files/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Data Science &amp; Analytics
+## Master of Science
+### University of Missouri<br>dsa.missouri.edu
+### <table style="border-style:none;padding-top:30px;" class=".table">
+<tr>
+<th style="padding-right:75px!important">
+<a href="https://twitter.com/kearneymw"> <i class="fab fa-twitter"></i> </a>
+</th>
+<th style="padding-left:75px!important">
+<a href="https://github.com/mkearney"> <i class="fab fa-github"></i> </a>
+</th>
+</tr>
+<tr style="background-color:#fff">
+<th style="padding-right:75px!important">
+<a href="https://twitter.com/kearneymw"> <span class="citation">@kearneymw</span> </a>
+</th>
+<th style="padding-left:75px!important">
+<a href="https://github.com/mkearney"> <span class="citation">@mkearney</span> </a>
+</th>
+</tr>
+</table>
+
+---
+
+
+
+
+# Michael Kearney, Ph.D.
+
++ Assistant Professor with joint appointment in
+  - School of Journalism
+  - Informatics Institute
+* MU DSA program faculty
+  - Chair of Curriculum Committee
+* Research and teaching
+  - Social media / text &amp; network analysis
+  - Twitter, political media diets, "fake news"
+
+---
+
+# MU - DSA
+* 21 Month Program
+* 34 Credit Hours
+  - 19 hours **Data Science Core** courses
+  - 3 hours **Case Study**
+  - 9 hours **Emphasis Area** (elective) courses
+  - 3 hours **Capstone**
+
+---
+
+# Fall 2019 Classes
+* Introduction to Data Science and Analytics 
+  - August 19 – October 13
+* Statistical and Mathematical Foundations of Data Analytics
+  - September 16 – November 10
+* Database and Analytics
+  - October 14 – December 13
+---
+
+# Spring 2020 Classes
+* Big Data Visualization
+* Applied Machine Learning
+* Big Data Security
+
+
+---
+
+# Program Emphasis
+
+*Summer Case Study
+  - Group project for exploratory computational data analysis
+* Emphasis area classes
+  - Biotechnology, Human-Center Design for Data, etc.
+* Capstone Project
+  - Group project, significant project with exploration and predictive analytics
+
+---
+
+# Learning Technologies
+
+Course work leverages three systems:
+
+* Canvas Learning Management System (LMS)
+  - Discussion Forums, Videos, Grade book
+* JupyterHub
+  - Interactive learning activities (programming)
+* Discussion Boards
+  – Mutual Aid and Learning Support
+
+
+---
+
+# JupyterHub
+
+![](img/jh.png)
+
+---
+class: inverse, center, middle
+
+# Questions?
+
+Website: dsa.missouri.edu
+
+Email: DSAMasters@missouri.edu
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
